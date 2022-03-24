@@ -6,7 +6,7 @@
     width: 100%;
     margin-bottom: 30px;
 }
-.form , .form-row:las-of-type {
+.form , .form-row:last-of-type {
     margin-bottom: 0;
 }
 
@@ -25,4 +25,17 @@
     border-bottom: 2px solid #777;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.form span {
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form a {
+    line-height: 40px;
+    text-decoration: none;
+}
+.form a hover {
+    line-height: 40px;
+    text-decoration: underline;
 }
