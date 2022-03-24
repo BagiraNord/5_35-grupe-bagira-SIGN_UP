@@ -27,15 +27,19 @@ body {
     font-size: 40px;
     font-weight: normal;
 }
-.bottom links {
+.bottom-links {
 
 }
-.bottom links > .link {
-
+.bottom-links > .link {
+    color: #fff;
 }
 .right-column {
     width: 60%;
+    float:left
     padding: 60px;
-    float: left;
     background-color: #fff;  
+}
+
+.close {
+
 }
