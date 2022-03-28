@@ -17,8 +17,11 @@ body {
 .left-column {
     width: 40%;
     padding: 40px;
+    height: 400px;
     float:left;
+    display: inline-block;
     background-color: #008fae;
+    background-image: url(../../hill.png);
     color: #fff;
 }
 .main-title {
@@ -34,8 +37,10 @@ body {
     color: #fff;
 }
 .right-column {
-    width: 60%;
-    float:left
+    width: 50%;
+    height: 500px;
+    display: inline-block;
+    float:left;
     padding: 60px;
     background-color: #fff;  
 }
