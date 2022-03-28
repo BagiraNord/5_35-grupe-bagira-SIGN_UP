@@ -11,18 +11,21 @@ body {
 }
 .container {
     width: 800px;
-    margin-top: 100px;
-    margin-left: calc(50%-400px);
+    position: relative;
 }
 .left-column {
-    width: 40%;
-    padding: 40px;
-    height: 400px;
-    float:left;
+    width: 35%;
+    padding: 20px;
+    float: left;
+    height: 450px;
     display: inline-block;
     background-color: #008fae;
     background-image: url(../../hill.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
+    position: absolute;
 }
 .main-title {
     width: 100%;
@@ -31,7 +34,7 @@ body {
     font-weight: normal;
 }
 .bottom-links {
-
+font-size:x-small;
 }
 .bottom-links > .link {
     color: #fff;
@@ -46,5 +49,13 @@ body {
 }
 
 .close {
-
+width: 60px;
+height: 60px;
+font-size: 30px;
+text-align: center;
+line-height: 54px;
+position: absolute;
+right: 0;
+top: 0;
+cursor: pointer;
 }
