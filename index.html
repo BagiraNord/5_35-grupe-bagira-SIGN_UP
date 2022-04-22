@@ -4,56 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>registracija</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-    <link rel="manifest" href="./favicon/site.webmanifest">
-    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <title>Get In Touch</title>
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./form.css">
-    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./css/button.css"> 
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 <body>
     <main class="container">
-        <div class="left-column">
-            <h2 class="main-title">Sign up</h2>
-            <footer class="bottom links">
-                <a href="#" class="link">Privacy policy</a>
-                &amp;
-                <a href="#" class="link">Terms of service</a>
-            </footer>
+        <div class="row1">
+            <h2 class="main-title">Get in Touch</h2> 
         </div>
-        <div class="right-column">
-            <div class="close">x</div>
-            <form class="form">
-                <div class="form-row">
-                    <label for="username" class="label">Username</label>
-                    <input id="username" type="text" class="input" placeholder="Your name" required>
-                </div>
-                <div class="form-row">
-                    <label for="email" class="label">Email</label>
-                    <input id="email" type="text" class="input" placeholder="Your email" required>
-                </div>
-                <div class="form-row">
-                    <label for="pass" class="label">Password</label>
-                    <input id="pass" type="text" class="input" placeholder="Your password" required>
-                </div>
-                <div class="form-row">
-                    <label for="re-pass" class="label">Repeat password</label>
-                    <input id="re-pass" type="text" class="input" placeholder="Same pasword" required>
-                </div>
-                <div class="form-row">
-                    <button type="submit" class="btn">Get started</button>
-                    <span>or</span>
-                    <a href="#">Sign in</a>
-                </div>
-            </form>
+        <div class="row2">
+            <div class="form-row">
+                    <input id="firstname" type="text" class="input1" placeholder="First name" required>
+            </div>
+            <div class="form-row">
+                <input id="lastname" type="text" class="input1" placeholder="Last name" required>
+            </div>
         </div>
+        <div class="row3">
+            <div class="form-row">
+                <input id="email" type="text" class="input2" placeholder="Email" required>
+            </div>
+            <div class="form-row">
+                <input id="phone" type="text" class="input2" placeholder="Phone" required>
+            </div>
+        </div>
+        <div class="row4">
+            <input id="address" type="text" class="input3" placeholder="Address" required>
+        </div>
+        <div class="row5">
+            <input id="message" type="text" class="input4" placeholder="Type ypur message here" required>
+        </div>
+        <div class="row6">
+            <button type="submit" class="btn">Submit</button>         
+        </div>
+        
+        
+        <footer class="done">Thanks for submitting!
+        </footer>
     </main>
-
 </body>
 </html>

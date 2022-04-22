@@ -1,5 +1,6 @@
 .form {
     width: 100%;
+    display: inline-block;
 }
 
 .form > .form-row {
@@ -23,16 +24,14 @@
     width: 100%;
     border: none;
     border-bottom: 2px solid #777;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0;
 }
 .form > .form-row > .input:focus {
     outline: 1px solid red;
 }
 .form span {
     line-height: 40px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 .form a {
     line-height: 40px;
@@ -41,4 +40,7 @@
 .form a hover {
     line-height: 40px;
     text-decoration: underline;
+}
+.btn:nth-child(2) {
+    padding: 1px 2px 1px 2px;
 }
